@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.sfg.administrator.customviewdemo.CustomLayout
+        android:id="@+id/activity_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#fff"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        tools:context="com.sfg.administrator.customviewdemo.MainActivity">
+
+        <com.sfg.administrator.customviewdemo.CustomTextView
+            android:id="@+id/mTv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="11dp"
+            android:text="Hello World!"
+            android:textColor="@color/colorPrimary"
+            android:textSize="14sp" />
+
+        <com.sfg.administrator.customviewdemo.PieRateView
+            android:id="@+id/mPieChart"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_marginTop="10dp"
+            android:background="#fffff00f" />
+
+        <com.sfg.administrator.customviewdemo.MusicRectView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginTop="10dp"
+            android:background="#fffff00f" />
+
+        <com.sfg.administrator.customviewdemo.MusicRectView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginTop="10dp"
+            android:background="#fffff00f" />
+
+        <com.sfg.administrator.customviewdemo.MusicRectView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginTop="10dp"
+            android:background="#fffff00f" />
+    </com.sfg.administrator.customviewdemo.CustomLayout>
+</ScrollView>
