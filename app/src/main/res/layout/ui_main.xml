@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:onClick="onCustomViewClick"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="自定义view展示" />
+    <Button
+        android:onClick="onZhihuClick"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="仿知乎list列表" />
+    <Button
+        android:onClick="onQQSlideClick"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="仿qq滑动" />
+</LinearLayout>

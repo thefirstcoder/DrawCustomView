@@ -1,4 +1,4 @@
-package com.sfg.administrator.customviewdemo;
+package com.sfg.administrator.customviewdemo.customView;
 
 import android.content.Context;
 import android.graphics.Canvas;

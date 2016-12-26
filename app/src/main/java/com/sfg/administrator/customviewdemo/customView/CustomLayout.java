@@ -1,4 +1,4 @@
-package com.sfg.administrator.customviewdemo;
+package com.sfg.administrator.customviewdemo.customView;
 
 import android.content.Context;
 import android.support.v4.view.ScrollingView;
@@ -57,6 +57,11 @@ public class CustomLayout extends LinearLayout {
             int childHeightMeasureSpec = MeasureSpec.makeMeasureSpec(heightPixels, MeasureSpec.EXACTLY);
             measureChild(getChildAt(i), widthMeasureSpec, childHeightMeasureSpec);
         }
+    }
+
+    @Override
+    public boolean dispatchTouchEvent(MotionEvent ev) {
+        return super.dispatchTouchEvent(ev);
     }
 
     @Override

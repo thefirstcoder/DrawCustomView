@@ -10,13 +10,16 @@
         android:theme="@style/AppTheme">
         <activity
             android:clearTaskOnLaunch="true"
-            android:name=".MainActivity">
+            android:name=".MainUI">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".customView.MainActivity"/>
+        <activity android:name=".shaderList.ListActivity"/>
+        <activity android:name=".qqSlide.QQSlideMenu"/>
     </application>
 
 </manifest>
