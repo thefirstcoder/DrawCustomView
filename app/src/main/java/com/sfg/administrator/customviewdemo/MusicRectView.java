@@ -64,7 +64,7 @@ public class MusicRectView extends TextView {
         mWidth = getWidth();
         mHeight = getHeight();
         mRectWidth= (float) (mWidth *0.8/mRectCount);
-        paint.setShader(new LinearGradient(0,0,10,10,new int[]{Color.RED,Color.GREEN,Color.BLUE},
-                 null,Shader.TileMode.REPEAT));
+        paint.setShader(new LinearGradient(0,0,mWidth,mHeight,new int[]{Color.RED,Color.GREEN,Color.BLUE},
+                 null,Shader.TileMode.CLAMP));
     }
 }
