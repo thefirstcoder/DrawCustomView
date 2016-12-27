@@ -31,6 +31,17 @@
         android:layout_height="200dp"
         android:layout_marginLeft="10dp"
         android:background="#fffff00f" />
+    <ImageView
+        android:padding="20dp"
+        android:src="@drawable/layertest"
+        android:background="@drawable/shadertest"
+        android:layout_width="match_parent"
+        android:layout_height="200dp" />
+    <com.sfg.administrator.customviewdemo.customView.ClockCat
+        android:layout_marginLeft="10dp"
+        android:background="@color/colorAccent"
+        android:layout_width="match_parent"
+        android:layout_height="200dp" />
 
 
 </com.sfg.administrator.customviewdemo.customView.CustomLayout>
